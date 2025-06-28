@@ -1,0 +1,71 @@
+name: jarvis
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 🌐 HTTP & Date
+  http: ^1.2.1
+  intl: ^0.19.0
+
+  # 📍 GPS Location
+  geolocator: ^10.1.0
+
+  # ⛅ Weather Animation
+  lottie: ^3.1.0
+
+  # 🖋️ Fonts & UI
+  cupertino_icons: ^1.0.8
+  share_plus: ^7.2.0
+  google_fonts: ^6.2.1
+  widget_and_text_animator: ^1.1.5
+  siri_wave: ^2.3.0
+  animated_text_kit: ^4.2.2
+
+  # 🔊 Voice AI
+  speech_to_text: ^7.0.0
+  flutter_tts: ^3.8.3
+  porcupine_flutter: ^3.0.4
+  audioplayers: ^5.2.1
+
+  # 📦 State & Utils
+  provider: ^6.1.5
+  shared_preferences: ^2.2.2
+  overlay_support: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sounds/start.mp3
+    - assets/gif/0.gif
+    - assets/gif/1.gif
+    - assets/gif/2.gif
+    - assets/gif/3.gif
+    - assets/gif/4.gif
+    - assets/gif/5.gif
+    - assets/gif/6.gif
+    - assets/gif/7.gif
+    - assets/gif/load.gif
+
+    # 🌦️ Weather Lottie files
+    - assets/lottie/cloud_rain.json
+    - assets/lottie/clouds.json
+    - assets/lottie/cloud_drizzle.json
+    - assets/lottie/cloud_heavy_rain.json
+    - assets/lottie/sun_cloud.json
+    - assets/lottie/thunderstorm.json
+
+    # 🗣️ Porcupine hot-word model
+    - assets/ppn/jarvis_en_android_v3_0_0.ppn
